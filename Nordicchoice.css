@@ -1,0 +1,53 @@
+
+body {
+    display: flex;
+    
+}
+
+.wrapper {
+    width: 1200px;
+}
+
+.aside {
+    position: sticky;
+    top: 20px;
+    height: 900px;
+    width: 290px;
+    float: left;
+    width: 250px;
+    height: 900px;
+    background:rgb(220, 203, 203) ;
+    color: black;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px;
+}
+
+.aside a {
+    transition: all 0.3s;
+    text-decoration: none;
+    margin-left: 7px;
+    font-style:normal;
+   margin-top: 20px;
+    font-size: larger;
+    color: black;
+   align-items: center;
+    
+   
+    border-radius: 5px;
+}
+
+.aside img {
+    width: 100%;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.first {
+    background: rgb(116, 116, 139);
+}
+
+
+
+

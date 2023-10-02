@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(214, 214, 205);
+}
+
+.wrapper {
+  width: 1400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 19px;
+  
+  
+}
+
+
+.topnav {
+  position: sticky;
+  top: 0px;
+  background:rgb(214, 214, 205);
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 2%;
+  
+ 
+}
+.topnav a:hover {
+  background: rgb(230, 229, 233);
+  color: black;
+}
+.topnav a.active {
+  background-color: rgb(230, 229, 233);
+  color: black;
+  padding-left: 20px;
+}
+
+
+
+a:hover {
+  background: rgb(214, 214, 205);
+  color: white;
+  border: 1px;
+
+
+}
+
+a:active {
+  background: grey;
+}
+
+
+
+.content {
+  margin-top: 100px;
+  
+  color:black;
+  background: rgb(230, 229, 233);
+  padding: 20px 20px 40px 20px;
+  
+  line-height: 180%;
+  
+  
+
+}
+
+
+
+
+.firstcontent {
+  text-align:left;
+  padding: 20px;
+  margin-left: 100px;
+  
+  
+ 
+}
+.firstcontent img {
+  float: right;
+  width: 30%;
+  height: 400px;
+  padding: 0px 0px 10px 25px;
+  
+  
+ 
+
+}
+
+.metoder {
+  width: 30%;
+  border: 2px solid black;
+  padding: 25px;
+  box-shadow: 0px 0px 10px;
+}
+
+
+.hackers {
+  
+  
+  margin-top: 20px;
+  padding: 25px;
+}
+.hackers img {
+  margin-left: 30px;
+  float: right;
+  width: 20%;
+  
+  
+}
+
+iframe {
+  margin-left: 30px;
+  width: 90%;
+  margin-top: 40px;
+}
+
+.vpn {
+  padding: 20px;
+  margin-top: 40px;
+}
+

@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    background:rgb(214, 214, 205) ;
+}
+
+.wrapper {
+    width: 1400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.topnav {
+    position: fixed;
+    top: 0px;
+    
+    background-color:rgb(214, 214, 205);
+    overflow: hidden;
+  
+    width: 100%;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 30px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 2%;
+   
+  }
+  .topnav a:hover {
+    background: rgb(182, 181, 181);
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(230, 229, 233);
+    color: black;
+    padding-left: 20px;
+  }
+
+
+#dator {
+    width: 100%;
+    height: 180px;
+}
+
+a:hover {
+    background: rgb(230, 229, 233);
+    color: white;
+    border: 1px;
+
+
+}
+
+ a:active {
+    background: grey;
+}
+
+.content {
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 40px;
+    color:black;
+    background:rgb(230, 229, 233);
+    line-height: 180%;
+    font-size: 19px;
+   
+    width: 80%;
+  
+   
+    
+    
+    
+   
+}
+
+
+.firstcontent {
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+   
+  
+}
+.firstcontent img {
+    width: 40%;
+    height: auto;
+    float: right;
+    padding: 15px;
+}
+
+.svt {
+    padding: 20px;
+    text-align: left;
+    
+    
+}
+.svt img {
+    float: left;
+    width: 40%;
+    padding: 70px 20px 0px 0px;
+}
+
+.socialamedier {
+    margin-top: 30px;
+    
+    
+}
+iframe {
+    width: 43%;
+    float:right;
+}
+.bluff {
+    padding-top: 90px;
+    padding: 20px;
+  
+}
+.bluff img {
+    width: 50%;
+    float: right;
+    padding: 40px 0px 10px 30px;
+}
+
+#video{
+    margin-left: 100px;
+    
+    
+}

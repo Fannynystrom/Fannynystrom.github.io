@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(214, 214, 205);
+    
+}
+
+
+
+
+
+
+
+
+
+#privatperson {
+    border: 2px solid black;
+}
+
+.wrapper {
+    width: 1400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+
+}
+
+
+.topnav {
+    position: fixed;
+    top: 0px;
+    
+    background-color:rgb(214, 214, 205);
+    overflow: hidden;
+    padding-left: 20px;
+    width: 100%;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    padding: 30px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 2%;
+    padding-left: 20px;
+  }
+  .topnav a:hover {
+    background: rgb(182, 181, 181);
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(230, 229, 233);
+    color: black;
+    padding-left: 20px;
+  }
+
+
+
+.content {
+    color: black;
+    margin-top: 80px;
+    margin-left: 120px;
+    padding: 40px;
+   width: 70%;
+    background:rgb(230, 229, 233);
+    font-size: 20px;
+    
+    line-height: 180%;
+
+}
+
+
+.first {
+   padding: 20px;
+   
+   
+   
+   
+    
+   
+    
+}
+
+.first img {
+    width:45%;
+    height: auto;
+    padding: 20px 2px 0px 10px;
+    float: right;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+.wifi {
+   padding: 15px;
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+}
+
+.wifi img {
+    float: right;
+   
+    width: 30%;
+    padding-right: 5px;
+    
+    
+    
+}
+
+#bilddator {
+    float: right;
+    width: 30%;
+    margin: 30px 2px 0px 0px;
+    border-radius: 5%;
+}
+#idkap {
+    font-size: medium;
+}
+
+.trackers {
+   padding: 15px;
+   margin: 0px 0px 0px 0px;
+   border-radius: 1%;
+    
+    
+
+}
+
+
+iframe {
+   margin-left: 250px;
+}
+
+  
+
+
+.lösenord {
+    
+    padding: 15px;
+    border-radius: 1%;
+    
+  
+    
+}
+
+
+#picturepassword {
+    width: 40%;
+    float: right;
+    border-radius: 1%;
+}
+
+/* ------ipad----- */
+@media screen and (max-width: 1200px){
+    .wrapper {
+        width: 900px;
+    }
+}
+
+/* ------mobil----- */
+@media screen and (max-width: 900px){
+    .wrapper {
+        width: fit-content;
+        font-size: small;
+        background: red;
+    }
+
+
+}
+
+

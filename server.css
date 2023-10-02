@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(203, 203, 198);
+}
+
+.wrapper {
+    width: 1400px;
+    
+}
+
+
+
+
+
+
+.topnav {
+  position: fixed;
+  top: 0px;
+  background: rgb(203, 203, 198);
+    overflow: hidden;
+    padding: 30px 10px 30px 10px;
+    width: 100%;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2%;
+    padding-left: 20px;
+  }
+  .topnav a:hover {
+    background: rgb(182, 181, 181);
+    color: black;
+  }
+  .topnav a.active {
+    background-color: rgb(230, 229, 233);
+    color: black;
+    padding-left: 20px;
+  }
+
+
+  .content {
+    width: 80%;
+    color: black;
+    background:rgb(230, 229, 233);
+    margin-left: 60px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    
+  }
+
+  #first {
+    
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+  
+   
+  }
+
+  #server {
+    width: 30%;
+    float: right;
+  }
+
+  .first {
+    margin-left: 20px;
+    font-size: larger;
+    line-height: 180%;
+    padding: 25px;
+    margin-top: 40px;
+    padding-left: 90px;
+    
+  }
+
+  .två {
+    padding-left: 20px;
+    line-height: 180%;
+    font-size: larger;
+    padding: 25px;
+    padding-left: 90px;
+    
+  }
+
+  .två img {
+    width: 45%;
+    height: auto;
+    float: right;
+  }
+
+  /* ------ipad----- */
+@media screen and (max-width: 1200px){
+  .wrapper {
+    width: 900px;
+    background-color: rgb(203, 203, 198);
+  }
+
+
+ .navbar {
+  display:flex;
+  flex-direction: row;
+ }
+
+#server {
+  padding: 10px;
+}
+
+
+}
+
+  /* ------ipad----- */
+  @media screen and (max-width: 900px){
+    .wrapper {
+      width: fit-content;
+    }
+
+  }
