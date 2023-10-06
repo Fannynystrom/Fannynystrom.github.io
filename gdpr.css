@@ -5,53 +5,119 @@ body {
 }
 
 .wrapper {
-    width: 1400px;
-}
-
-
-.topnav {
-    position: fixed;
-    top: 0px;
-    overflow: hidden;
-    padding-left: 20px;
-    background:rgb(214, 214, 205);
-    padding: 30px 10px 30px 10px;
-    width: 100%;
-}
-
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    
-    border-radius: 2%;
-    background: rgb(214, 214, 205);
+    width: 1200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .topnav a:hover {
-    background: rgb(230, 229, 233);
+    
+}
+
+
+.dropdown {
+  float: initial;
+  overflow: hidden;
+ 
+}
+.dropdown .dropbtn {
+  font-size: 19px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  
+ 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(182, 181, 181);
+}
+
+.dropdown-content {
+  display: none;
+  float: left;
+  
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: initial;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navbar {
+  float: initial;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  background: rgb(214, 214, 205);
+  font-size: 20px;
+
+
+  
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  .navbar a:hover {
+    background: rgb(182, 181, 181);
     color: black;
   }
-  .topnav a.active {
+  .navbar a.active {
     background-color: rgb(230, 229, 233);
     color: black;
     padding-left: 20px;
   }
 
+
+
+
+
 .content {
-    font-family: 'Times New Roman', Times, serif;
+  
     width: 80%;
     padding: 20px;
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 60px;
     font-size: large;
     background: rgb(230, 229, 233);
     line-height: 180%;
     color: black;
     
+}
+
+#first {
+  width: 90%;
+  height: 370px;
+  margin-left: 20px;
 }
 
 .first {
@@ -69,7 +135,7 @@ body {
    
    
     line-height: 190%;
-    font-size: large;
+    
     padding: 15px;
     margin: 0px 0px 0px 0px;
     border-radius: 1%;
@@ -92,4 +158,37 @@ body {
 
 #undertext {
     font-size: medium;
+}
+
+/* ------mobil----- */
+@media screen and (max-width: 500px) {
+  .content {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 0px;
+    font-size: 17px;
+  }
+
+  #first {
+    width: fit-content;
+    height: 250px;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .navbar {
+    padding-left: 40px;
+  }
+
+  .trackers {
+    padding-left: 20px;
+  }
+
+  figure#cookies {
+    padding-right: 0px;
+    height: auto;
+    margin-right: 0px;
+    
+
+  }
 }

@@ -1,36 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML&CSS</title>
+    <script src="https://kit.fontawesome.com/60163e5955.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="html.css">
     
 </head>
 <body>
 
     <div class="wrapper">
-        <div class="topnav">
-            <a href="blogg.html">Hem</a>
-            <a href="internetshistoria.html">Internets Historia</a>
-            <a  href="server.html">Server v.s Klient</a>
-            <a class="active" href="html&css.html">HTML & CSS</a>
-              <a href="gdpr.html">GDPR</a>
-              <a href="privatperson.html">Så håller du dig säker</a>
-              <a href="id-kapning.html">Id-Kapning</a>
-              <a href="ransomwere.html">Ransomewere</a>
-              <a href="#">Cyberattack mot Nordic Choice</a>
-              <a href="studier.html">Tips för bättre studer</a>
+   
+
+
+            <div class="navbar">
+                <a href="index.html">Startsida</a>
+                <a href="kontakt.html">Kontakt</a>
+                
+               <div class="dropdown">
+                    <button class="dropbtn">Blogginlägg
+                     <i class="fa fa-caret-down"></i>
+                    </button>
+                  <div class="dropdown-content">
+                    
+                        <a href="index.html">Hem</a>
+                        <a href="internetshistoria.html">Internets Historia</a>
+                        <a  href="server.html">Server v.s Klient</a>
+                        <a class="active" href="html&css.html">HTML & CSS</a>
+                          <a href="gdpr.html">GDPR</a>
+                          <a href="privatperson.html">Så håller du dig säker</a>
+                          <a href="id-kapning.html">Id-Kapning</a>
+                          <a href="ransomwere.html">Ransomewere</a>
+                          <a href="#">Cyberattack mot Nordic Choice</a>
+                          <a href="studier.html">Tips för bättre studer</a>
+                    </div>     
+                  </div>
+              </div>
+
+              
+              <div class="content">
+              
+
+                <div class="ett">
+
+       
+            <h1>Html & CSS</h1>
+            <p>
+            HTML och CSS kan uppvelvas som klurigt i början och om du är en av dem som känner så, så kan du vara lugn. Allt inom detta går att googla
+            och hemsidan <a href="#">w3schools</a> kommer vara din bibel. Min lärare sa under en lektion "ni kommer aldrig lära er CSS helt och hållet och om ni gör det så tycker jag synd om er"
+            vilket jag tycker i efterhand sumerar det väldigt bra.
+            Tre stora skillnader att ha med sig: Html gör strukturen, css gör stylingen och Javascript gör funktionen.
+            Bär också alltid dig att Javascript och Java INTE är samma sak.
+           Visual Studio Code är det bästa och enklaste sättet som arbetsverktyg. 
+
+
+             </p>
         </div>
 
-        <div class="content">
+        <div class="struktur">
+            <h1 id="rubrik">Hyper Text Markup Language </h1>
+            <p>När man bygger en hemsida med hjälp av html så kodar man inte, utan man använder ett språk som kallas Markup language.
+                Precis som det låter så markerar man upp sin text i olika boxar som man sedan stylar med css. Element är ett block av innehåll som 
+                du använder hela tiden. En rubrik exempelvis är ett block och kan se ut såhär: < h1 > Rubrik < / h1 > och det är viktigt att stänga varje tagg efter önskat innehåll.
 
-        <div class="ett">
-            <h1>hej</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque animi eos vero saepe. Recusandae soluta iure, autem quidem dolore fuga nulla tempora amet omnis ipsa, ad eveniet quibusdam nesciunt?</p>
+                 Struktur Element är de block som märker upp struktur och inte innehåll i det så inte bilder eller rubriker exempelvis.
+                 Strukturtaggar är:
+                 <ul>
+                    <li>Header - precis som det låter, innehåller en header.</li>
+                    <li>Main - oftast används main runt om flera block, för att kunna styla "main-content" i css.</li>
+                    <li>Footer - en fotnot längst ner</li>
+                    <li>Nav - är oftast en meny med tillhörande länkänar</li>
+                    <li>Section - som main, används ofta för att rama in flera block</li>
+                    <li>Article - en artikel på en sida</li>
+                    <li>Aside - oftast en pararell artikel vid sidan, kan innehålla text eller meny</li>
+                    <li>Div - också en behållare för flera block</li>
+                 </ul>
+                 Strukturtaggar har inga regler på hur de skall användas, utan de kallas för det för att få struktur, främst för dig själv.
+                 När jag började med html använde jag strukturtaggar hela tiden tills jag slutade och började använda div-taggen till alla.
+                 Detta för att när du bygger upp sidan och har mer innehåll behöver du ge en "class" till alla strukturtaggar för att css ska veta
+                 vart den ska styla. En article exempelvis har man oftast flera stycken av och du måste namnge varje article med en class för att sen i css 
+                 namne den "article.class(class är det du döper den klassen till". Varför göra det svårt när man kan göra det lätt, använd istället div 
+                 med en class och class kan vara din strukturtagg. Div är den mest användbara taggen inom webbutveckling.
+                 <br>
+
+
+                 Lite tips på taggar i HTML:
+                 <ul>
+                    <li> < p > - brödtext, alltså textinehåll. Om du under uppbyggnad inte vet vad du skall ha för textinnehåll men ändå vill se hur det ser ut med text, kan du skriva p och sen lorem för att få random textinnehåll.</li>
+                    <li> < b > - gör fetat text (måste märkas efter andra taggen i en kod, så att den har något att göra fetad text på.</li>
+                    <li> < i > - kursiv text </li>
+                    <li> ul - märker upp en punktlista men du måste använda taggen < li > för varje del du vill ha i punktlistan. Detta som du läser nu är en punktlista.</li>
+                    <li> < ol > - samma som ul fast listan är numrerad, här måste du också använda < li > för varje del du vill ha i nummerordning</li>
+                    <li> < a > - gör länkar. Du måste använda ett atribut som heter href efter < a h r e f ="här länkar du"> < / l i >
+                    <li> < img src = " " alt = " " > bildtagg, där src adresserar till bilden och alt står för bildtexten (när du håller musen över bilden står det vad det är för bild)</li>
+                    <li> < h1 > - rubrik, finns upp till < h5 > </li>
+                    <li> < br > - gör så att texten bärjar på en ny rad</li>
+                    Glöm inte att alla taggar måste avslutas efter önskat innehåll, förutom taggen < br > som inte har en avslutningstagg.
+                 </ul>
+                 <br>
+
+                 Tips stylingtagg i CSS:
+                 <ul>
+                    <li>line-hight - ökar mellanrummet i textinnehåll så att det blir mer luft emellan. Jag brukar använda någonstans mellan 130%-180% beroende av innehåll.</li>
+                    <li>backround - bakrundsfärg, finns också backround-color</li>
+                    <li>color - färg för texten i boxen</li>
+                    <li> font-family - typsnitt på text</li>
+                    <li> font-size - storleken på texten</li>
+                    <li> border-radius - rundar ett innehålls kanter så som en bild eller border-box</li>
+
+
+                 </ul>
+                 
+
+
+            </p>
+            
 
         </div>
+
+
+
+
 
     </div>
 
